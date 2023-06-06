@@ -46,12 +46,7 @@ img{
      
 }
 
-.AddNote{
-    height: 100px;
-text-align: center;
-margin: 20px;
 
-}
 
 .Title{
 display: block;
@@ -63,7 +58,8 @@ box-shadow: 0 5px 10px 0 grey;
 border-radius: 10px;
 border-bottom-left-radius: 0 ;
 border-bottom-right-radius: 0 ;
-
+width : 300px;
+display: block;
 }
 
 
@@ -80,12 +76,28 @@ input:focus{
     border-radius: 10px;
     border-top-left-radius: 0 ;
     border-top-right-radius: 0 ;
-
+    width: 300px;
     box-shadow: 0 5px 10px 0 grey;
+    display: inline-block;
 }
 
 .dustBin{
     text-align: right;
-    
+    cursor: pointer;
 }
 
+.notebtn{
+    border-radius: 100%;
+    box-shadow: 0 5px 10px 0 grey;
+    border: none;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -10px;
+    cursor: pointer;
+
+        
+}
+.notesection{
+    text-align: center;
+    padding-top: 10px;
+}

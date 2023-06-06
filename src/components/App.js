@@ -28,10 +28,12 @@ function App() {
   return (
     <div>
       <Header />
+      <div className="notesection">
+
       <AddNote addNote={addNote} />
       {notes.map((note,index) => (<Note deleteNote={deleteNote} title={note.title} content={note.content} key={index} id={index} />))}
 
-
+</div>
 
       <Footer />
     </div>
