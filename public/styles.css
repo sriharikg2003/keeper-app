@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: "McLaren" ,cursive;
+}
+header{
+    background-color:  #FFB84C;
+    color: white;
+    padding: 10px 20px 20px 10px;
+}
+
+.note{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width : 200px;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 5px 10px grey;
+    position: relative;
+    float: left;
+}
+
+.note p{
+ position: relative;    
+ margin-top: 5px;
+}
+
+footer{
+    background-color: #F6E1C3;
+    color: black;
+    font-size: 8px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+     
+}
+
+.AddNote{
+    height: 100px;
+text-align: center;
+margin: 20px;
+
+}
+
+.Title{
+display: block;
+text-align: center;
+margin: auto;
+height: 30px;
+border: none;
+box-shadow: 0 5px 10px 0 grey;
+border-radius: 10px;
+border-bottom-left-radius: 0 ;
+border-bottom-right-radius: 0 ;
+
+}
+
+
+input:focus{
+    outline: none;
+}
+.Note{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: -4px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 0 ;
+    border-top-right-radius: 0 ;
+
+    box-shadow: 0 5px 10px 0 grey;
+}
+
+.dustBin{
+    text-align: right;
+    
+}
+
